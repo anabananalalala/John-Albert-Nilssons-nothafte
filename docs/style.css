@@ -1,0 +1,129 @@
+body {
+	padding: 1vw;
+	font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
+	line-height: 1.25;
+	font-size: 1vw;
+    width: 100%;
+	}
+
+h1, h2, h3, nav, footer {
+    text-align: center;
+    
+}
+
+nav {
+    margin-bottom: 1vw;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1vw;   
+}
+
+h2 {
+    padding: 1vw;
+}
+
+h3 {
+    font-weight: bold;
+    padding: 1vw;
+}
+
+.subtitle {
+    margin-left: 5%;
+}
+
+#details {
+    padding: 2vw;
+    margin: 1vw;
+    text-align: center;    
+}
+
+footer {
+    border-top: 1px solid black;
+    padding-top: 1vw;
+    margin-top: 1vw;
+}
+
+.copyright {
+    width: 50%;
+    margin: auto;
+}
+
+.copyright_logo {
+    width: 1vw;
+    margin:.15vw;
+}
+
+.row {    
+    border-radius: 70px;
+    padding: 20px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color:black;
+    color: white;
+}
+
+#collection {
+    display: flex;
+}
+
+.thumbnail {
+    margin: 5px;
+    border: 1px solid black;
+    width: 100px;
+}
+
+a {
+    
+    text-decoration: none; /* Optional: removes underline */
+}
+
+
+.img-layout {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between; /* Adjusts spacing between images */
+    gap: 10px; /* Adds space between columns */
+}
+
+.column {
+  flex: 1; /* Ensures columns take equal width */
+}
+
+.img-full {
+    width: 100%; /* Makes images fill their container */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+}
+
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.zoom-target {
+    width: 100%; /* Makes images fill their container */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+}
+
+.zoom-window {
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-size: 700%; /* adjust for zoom level */
+    z-index: 10;
+}
+
+
