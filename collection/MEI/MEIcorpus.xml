@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<meiCorpus xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitalisat av John Albert Nilssons nothäfte</title>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name>Ebba Rubensson</name>
+                    <name>Charles Hagstedt</name>
+                </respStmt>
+            </titleStmt>
+            <pubStmt>
+                <address>
+                    <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                    <addrLine>Högskolan i Borås</addrLine>
+                    <addrLine>501 90 Borås</addrLine>
+                    <addrLine>https://www.hb.se/</addrLine>
+                </address>
+                <date>Maj 2025</date>
+                <availability>
+                    <useRestrict auth.uri="https://creativecommons.org/licenses/by/4.0/deed.en">
+                        <p>Notbok som finns i Skånes Spelmansförbunds samling. Materialet
+                            distribueras under en CC-BY-SA 4.0 licens.</p>
+                    </useRestrict>
+                </availability>
+                <publisher>Högskolan i Borås</publisher>
+            </pubStmt>
+            <sourceDesc>
+                <source>
+                    <bibl>
+                        <title>Notbok för violin</title>
+                        <persName role="arranger">John Albert Nilsson</persName>
+                        <physLoc>
+                            <repository>Skånes arkivförbund</repository>
+                        </physLoc>
+                        <date>12-03-1895</date>
+                        <settlement>
+                            <geogName>Hjortshög</geogName>
+                        </settlement>
+                        <dimensions>
+                            <dimensions>
+                                <height>16cm</height>
+                                <width>25cm</width>
+                            </dimensions>
+                            <extent>44 sidor </extent>
+                        </dimensions>
+                    </bibl>
+                </source>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Materialet har fotograferats av Ana-Marija Spajic och Cilix Almgren, och
+                    transkriberats av Ebba Rubensson och Charles Hagstedt. Det som vi valt ut att
+                    transkribera är låtnamn, skala, takt. Incipitkod för viss musik finns. Åke
+                    Persson från Skånes Spelmansförbund har även hjälpt att tyda vissa delar av
+                    handskriften som varit särskilt svår.</p>
+            </editorialDecl>
+            <projectDesc>
+                <p>Materialet har fotograferats, transkriberats, MEI-kodats och tillgängliggjorts
+                    digitalt som en del av kursen "Digitalisering för bevarande och tillgänglighet"
+                    som gavs vårterminen 2025 vid Högskolan i Borås och är en del av
+                    Masterprogrammet i Biblioteks- och Informationsvetenskap.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Urvalet gjordes utifrån och i samarbete med Skånes spelmansförbund, enligt deras önskemål och behov.</p>
+            </samplingDecl>
+        </encodingDesc>
+    </meiHead>
+    <mei xml:id="fram">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Framsida</title>
+                </titleStmt>
+                <pubStmt/>
+                <seriesStmt>
+                    <title>Notbok för Violin 
+                        <titlePart>John Albert Nilsson</titlePart>
+                        <geogName>Hjorthög</geogName>
+                        <date>12 mars 1895</date>
+                    </title>
+                </seriesStmt>
+            </fileDesc>
+        </meiHead>
+        <music>
+            <facsimile> </facsimile>
+        </music>
+    </mei>
+    <mei xml:id="försättsblad">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Försättsblad</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.1h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 1 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>Emoll</title>
+                    <key>E-moll</key>
+                    <meter>Ingen taktart</meter>
+                </work>
+                <work>
+                    <title>4. Narvamarsch (Wid Karl XII dödsfest 1818)</title>
+                    <composer>J.C Haeffner</composer>
+                    <key>E-moll</key>
+                    <meter>4/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>5. Wärmlandsvisa </title>
+                    <key>E-moll</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                    <notesStmt>
+                        <annot>Folkvisa</annot>
+                    </notesStmt>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.2v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 2 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>6. Julian Polka</title>
+                    <composer>Wilhelm Kühner</composer>
+                    <key>D-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>7. Kirsten Giftekniv (Galopp --?--)</title>
+                    <key>D-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.3h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 3 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>7. Kirsten Giftekniv (Galopp --?--)(fortsättning)</title>
+                    <key>D-dur</key>
+                    <meter>2/4</meter>
+                </work>
+                <work>
+                    <title>8. Polska (Folkvisa från Wärmland)</title>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.4v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 4 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>9. Galopp (Öfver stock och sten)</title>
+                    <key>G-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid5h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 5 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>10. Terése polka</title>
+                    <composer>Hans Christian Lumbye</composer>
+                    <key>G-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>D-moll</title>
+                    <key> D-moll</key>
+                    <meter>Ingen taktart</meter>
+                </work>
+                <work>
+                    <title>11. Liten Karin (tjänte på unga kungens gård)</title>
+                    <key>D-moll</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                    <notesStmt>
+                        <annot>Folkvisa</annot>
+                        <annot>Något långsamt</annot>
+                    </notesStmt>
+                </work>
+                <work>
+                    <title>Ingen titel</title>
+                    <key> G-moll</key>
+                    <meter>Ingen taktart</meter>
+                </work>
+                <work>
+                    <title>12. När månen vandrar på fästet blå</title>
+                    <lyricist>Christina Lagerlöf</lyricist>
+                    <key>G-moll</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.6v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 6 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>13. Wårblomman Mazurka</title>
+                    <composer>Carl Faust</composer>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.7h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 7 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>14. Andante</title>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>H-moll</title>
+                    <key>H-moll </key>
+                    <meter>Ingen taktart</meter>
+                    <notesStmt>
+                        <annot>Skala</annot>
+                    </notesStmt>
+                </work>
+                <work>
+                    <title>15. Folkvisa</title>
+                    <key>H-moll</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.8v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 8 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>16. Orden Francaise (Lundbom)</title>
+                    <key>C-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.9h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 9 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>16. Orden Francaise (Lundbom) (fortsättning)</title>
+                    <key>C-dur</key>
+                    <meter>2/4</meter>
+                </work>
+                <work>
+                    <title>17. Rullan går</title>
+                    <key>A-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.10v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 10 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>18. Cirkuswals</title>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>19. Winzenzin polka</title>
+                    <key>D-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.11h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 11 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>19. Winzenzin polka (fortsättning)</title>
+                    <key>D-dur</key>
+                    <meter>2/4</meter>
+                </work>
+                <work>
+                    <title>20. Liten Gavott</title>
+                    <key>A-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.12v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 12 vänster </title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>21. Reinländer</title>
+                    <key>G-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>22. Hambopolka</title>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>23. Anglaise Contradans</title>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.13h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 13 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>24. Lilla Stina</title>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>Ess-dur</title>
+                    <key>Eb-dur</key>
+                    <meter>Ingen taktart</meter>
+                </work>
+                <work>
+                    <title>25. Ingen titel</title>
+                    <key>Eb-dur</key>
+                    <meter>3/4</meter>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.14v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 14 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>26. Marsch Parad</title>
+                    <key>C-dur</key>
+                    <meter>4/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>27. Kadrill</title>
+                    <key>G-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.15h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 15 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>28. Nathalia Wals</title>
+                    <composer>Piotr Tjajkovskij</composer>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>29. Neckens polska</title>
+                    <key>F-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.16v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 16 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>30. Wals (ur Marinettes smås skälmstycken)</title>
+                    <key>C-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.17h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 17 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>30. Wals (ur Marinettes smås skälmstycken)(fortsättning)</title>
+                    <key>C-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>31. Marsch Edur</title>
+                    <key>E-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>32. Polska från Värmland</title>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.18v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 18 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>33. Gammal vals</title>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>34. Det var en lördag aften</title>
+                    <lyricist>Svend Grundtvig</lyricist>
+                    <key>F-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>35. Sofia Wals</title>
+                    <key>Bb-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.19h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 19 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>35. Sofia Wals (fortsättning)</title>
+                    <key>Bb-dur</key>
+                    <meter>3/4</meter>
+                </work>
+                <work>
+                    <title>36. Hvila vid denna källa</title>
+                    <lyricist>Carl Michael Bellman</lyricist>
+                    <key>G-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.20v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 20 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>37. Lilla Äpplet Mazurka</title>
+                    <key>D-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>38. Mazurka</title>
+                    <key>D-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.21h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 21 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>38. Mazurka (fortsättning)</title>
+                    <key>D-dur</key>
+                    <meter>3/4</meter>
+                </work>
+                <work>
+                    <title>39. Vid egen härd</title>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>Ingen titel</title>
+                    <key>D-dur</key>
+                    <meter>3/4</meter>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.22v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 22 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>40. Vals</title>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>41. Galopp</title>
+                    <key>G-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.23h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 23 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>41. Galopp (fortsättning)</title>
+                    <key>G-dur</key>
+                    <meter>2/4</meter>
+                </work>
+                <work>
+                    <title>42. Vals</title>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>Ass dur</title>
+                    <key>Ingen tonart</key>
+                    <meter>Ingen taktart</meter>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.24v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 24 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>43. Emmas dockkupletter (i lustspelet Stabstrumpetaren)</title>
+                    <key>D-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>44. Botilla Polka</title>
+                    <key>A-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.25h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 25 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>44. Botilla Polka (fortsättning)</title>
+                    <key>A-dur</key>
+                    <meter>2/4</meter>
+                </work>
+                <work>
+                    <title>45. Kinder Wals</title>
+                    <key>G-dur</key>
+                    <meter>4/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.26v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 26 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>46. Rocken snurrar, lampan brinner</title>
+                    <lyricist>Pehr Thomasson</lyricist>
+                    <key>D-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>47. Skåningen</title>
+                    <key>D-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>48. La violetta</title>
+                    <key>C-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                    <notesStmt>
+                        <annot>Försth repris 1 gång</annot>
+                    </notesStmt>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.27h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 27 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>48. La violetta (fortsättning)</title>
+                    <key>C-dur</key>
+                    <meter>3/4</meter>
+                </work>
+                <work>
+                    <title>49. Vals</title>
+                    <key>C-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.28v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 28 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>50. General Lee's quick marsch</title>
+                    <composer>Charles Young</composer>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.29h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 29 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>50. General Lee's quick marsch(fortsättning)</title>
+                    <composer>Charles Young</composer>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.30v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 30 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>51. Polkett</title>
+                    <key>A-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>52. Vals</title>
+                    <key>G-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>53. Vi prisa högljutt gamla testam</title>
+                    <key>D-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.31h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 31 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>53. Vi prisa högljutt gamla testam (fortsättning)</title>
+                    <key>D-dur</key>
+                    <meter>2/4</meter>
+                </work>
+                <work>
+                    <title>54. Galopp</title>
+                    <key>G-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.32v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 32 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>55. Kadrilj</title>
+                    <key>Bb-dur</key>
+                    <meter>4/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.33h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 33 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>55. Kadrilj (fortsättning)</title>
+                    <key>Bb-dur</key>
+                    <meter>4/4</meter>
+                </work>
+                <work>
+                    <title>56. Galopp ur Stenbocken</title>
+                    <key>D-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>57. Ola modigs visa</title>
+                    <key>G-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.34v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 34 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>58. Tempo di vals, Efter Balen</title>
+                    <composer>C. Harris</composer>
+                    <key>Bb-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                    <notesStmt>
+                        <annot>of Hearise, Refräng</annot>
+                    </notesStmt>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.35h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 35 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>58. Tempo di vals, Efter Balen (fortsättning)</title>
+                    <composer>C. Harris</composer>
+                    <key>Bb-dur</key>
+                    <meter>3/4</meter>
+                </work>
+                <work>
+                    <title>59. Polka</title>
+                    <key>G-dur</key>
+                    <meter>2/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.36v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 36 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>60. Vals Snöblomman</title>
+                    <composer>Harry Arnold, Felix Stahl</composer>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.37h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 37 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>61. La Marseilliase Marsch</title>
+                    <composer>Claude Joseph Rouget de Lisle</composer>
+                    <lyricist>Claude Joseph Rouget de Lisle</lyricist>
+                    <key>Bb-dur</key>
+                    <meter>4/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.38v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 38 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>62. Concert Overture, A Jehovenke</title>
+                    <composer>A. Jehovenke</composer>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                    <notesStmt>
+                        <annot>Allegro</annot>
+                    </notesStmt>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.39h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 39 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>62. Concert Overture, A Jehovenke (fortsättning)</title>
+                    <composer>A. Jehovenke</composer>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.40v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 40 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>63.Vals Donau Vellen (Dona böljor)</title>
+                    <composer>I. Ivanovici</composer>
+                    <key>C-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.41h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 41 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>63.Vals Donau Vellen (Dona böljor)(fortsättning)</title>
+                    <composer>I. Ivanovici</composer>
+                    <key>C-dur</key>
+                    <meter>3/4</meter>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.42v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 42 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>64.Glada gossars polka</title>
+                    <key>D-dur</key>
+                    <meter>Alla breve</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>65. Slängkyssen Polka Mazurka</title>
+                    <composer>Carl Faust</composer>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.43h">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 43 höger</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>65. Slängkyssen Polka Mazurka (fortsättning)</title>
+                    <composer>Carl Faust</composer>
+                    <key>G-dur</key>
+                    <meter>3/4</meter>
+                </work>
+                <work>
+                    <title>66. Som stjärnan uppå himmelen så klar</title>
+                    <key>C-dur</key>
+                    <meter>4/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="sid.44v">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Sida 44 vänster</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+            <workList>
+                <work>
+                    <title>67. Parad Marsch</title>
+                    <key>Bb-dur</key>
+                    <meter>4/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+                <work>
+                    <title>68. Soldatgossen</title>
+                    <key>C-dur</key>
+                    <meter>4/4</meter>
+                    <incip>
+                        <score/>
+                    </incip>
+                </work>
+            </workList>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="eftersättsblad">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Eftersättsblad</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+    <mei xml:id="baksida">
+        <meiHead>
+            <fileDesc>
+                <titleStmt>
+                    <title>Baksida</title>
+                </titleStmt>
+                <pubStmt/>
+            </fileDesc>
+        </meiHead>
+        <music>
+            <facsimile></facsimile>
+        </music>
+    </mei>
+</meiCorpus>
