@@ -6,9 +6,21 @@ body {
     width: 100%;
 	}
 
-h1, h2, h3, nav, footer {
+h1 {
     text-align: center;
-    
+    letter-spacing: 4px;
+}
+
+h2 {
+    padding: 1vw;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+h3 {
+    font-weight: bold;
+    padding: 1vw;
+    text-align: center;
 }
 
 nav {
@@ -16,15 +28,8 @@ nav {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 1vw;
-}
-
-h2 {
-    padding: 1vw;
-}
-
-h3 {
-    font-weight: bold;
-    padding: 1vw;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 .index-text {
@@ -69,6 +74,7 @@ padding-bottom: 5%;
 
 a {
     text-decoration: none; /* Optional: removes underline */
+    
 }
 
 p {color: white;
@@ -94,22 +100,26 @@ p {color: white;
 }
 
 .index-layout {
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     margin-left: 2%;
     margin-right: 2%;
     display: flex;
-    justify-content: space-between; /* Adjusts spacing between images */
     gap: 80px; /* Adds space between columns */
 }
 
-.column {
-  flex: 1; /* Ensures columns take equal width */
+.transkript-layout {
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    display: flex;
+    width: 100%; 
 }
 
-.index-img-column {
-    flex: 1; /* Ensures columns take equal width */
 
+
+.column {
+  flex: 1; /* Ensures columns take equal width */
 }
 
 .img-full {
@@ -121,6 +131,12 @@ p {color: white;
 
 .index-img {
     width: 100%; /* Makes images fill their container */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+}
+
+.transkript-img {
+    width: 80%; /* Makes images fill their container */
     height: auto; /* Maintains aspect ratio */
     display: block;
 }
@@ -153,6 +169,7 @@ footer {
     border-top: 1px solid black;
     padding-top: 1vw;
     margin-top: 1vw;
+    text-align: center;
 }
 
 .copyright {
