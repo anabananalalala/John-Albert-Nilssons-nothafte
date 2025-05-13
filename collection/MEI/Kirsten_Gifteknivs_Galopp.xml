@@ -6,13 +6,14 @@
       <fileDesc>
          <titleStmt>
             <title type="main">Kirsten Giftekniv Galopp -----</title>
-            <title type="subordinate">Undertitel</title>
             <respStmt>
                <persName role="composer">Okänd</persName>
+               <persName role="encoder">Ebba Rubensson</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
             <date isodate="2025-05-13T12:13:52" />
+            <availability>Notbok som finns i Skånes Spelmansförbunds samling. Materialet distribueras under en CC-BY-SA 4.0 licens.</availability>
          </pubStmt>
       </fileDesc>
    </meiHead>

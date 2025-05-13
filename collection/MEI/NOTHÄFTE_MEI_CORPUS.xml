@@ -7,9 +7,8 @@
             <titleStmt>
                 <title>Digitalisat av John Albert Nilssons nothäfte</title>
                 <respStmt>
-                    <resp>Encoded by</resp>
-                    <name>Ebba Rubensson</name>
-                    <name>Charles Hagstedt</name>
+                    <persName role="encoder">Ebba Rubensson</persName>
+                    <persName role="encoder">Charles Hagstedt</persName>
                 </respStmt>
             </titleStmt>
             <pubStmt>
@@ -55,22 +54,26 @@
             <editorialDecl>
                 <p>Materialet har fotograferats av Ana-Marija Spajic och Cilix Almgren, och
                     transkriberats av Ebba Rubensson och Charles Hagstedt. Det som vi valt ut att
-                    transkribera är låtnamn, skala, takt. Incipitkod för viss musik finns. Åke
-                    Persson från Skånes Spelmansförbund har även hjälpt att tyda vissa delar av
-                    handskriften som varit särskilt svår.</p>
+                    transkribera är låtnamn, tonart, och taktart. Ett MEI dokument med not
+                    transkription för halva låten "Kirsten Gifteknivs Galopp" finns på projektets GitHub
+                    sida. Åke Persson från Skånes Spelmansförbund har även hjälpt att tyda vissa
+                    delar av handskriften som varit särskilt svår.</p>
             </editorialDecl>
             <projectDesc>
                 <p>Materialet har fotograferats, transkriberats, MEI-kodats och tillgängliggjorts
                     digitalt som en del av kursen "Digitalisering för bevarande och tillgänglighet"
-                    som gavs vårterminen 2025 vid Högskolan i Borås och är en del av
+                    som gavs vårterminen 2025 vid Högskolan i Borås, och är en del av
                     Masterprogrammet i Biblioteks- och Informationsvetenskap.</p>
             </projectDesc>
             <samplingDecl>
-                <p>Urvalet gjordes utifrån och i samarbete med Skånes spelmansförbund, enligt deras önskemål och behov.</p>
+                <p>Urvalet gjordes utifrån och i samarbete med Skånes spelmansförbund, enligt deras
+                    önskemål och behov. Vi fann det även passande att det är en okänd spelmans
+                    nothäfte vi valt att digitalisera då projektet kommit att handla om just
+                    folkmusik, en genre kännetecknad av att ägas av alla men samtidigt av ingen.</p>
             </samplingDecl>
         </encodingDesc>
     </meiHead>
-    <mei xml:id="fram">
+    <mei>
         <meiHead>
             <fileDesc>
                 <titleStmt>
@@ -78,16 +81,34 @@
                 </titleStmt>
                 <pubStmt/>
                 <seriesStmt>
-                    <title>Notbok för Violin 
-                        <titlePart>John Albert Nilsson</titlePart>
-                        <geogName>Hjorthög</geogName>
+                    <title>Notbok för Violin <persName>John Albert Nilsson</persName>
+                        <geogName>Hjortshög</geogName>
                         <date>12 mars 1895</date>
                     </title>
                 </seriesStmt>
             </fileDesc>
+            <manifestationList>
+                <manifestation>
+                    <physDesc>
+                        <head>
+                            <title>Notbok för Violin</title>
+                            <persName>John Albert Nilsson</persName>
+                            <geogName>Hjortshög</geogName>
+                            <date>den 12 mars 1895</date>
+                        </head>
+                    </physDesc>
+                </manifestation>
+            </manifestationList>
         </meiHead>
         <music>
-            <facsimile> </facsimile>
+            <facsimile>
+                <surface xml:id="Framsida">
+                    <graphic xml:id="Framsida_pub" target="assets/img/documents/Framsida.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på nothäftets framsida</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="försättsblad">
@@ -98,9 +119,32 @@
                 </titleStmt>
                 <pubStmt/>
             </fileDesc>
+            <manifestationList>
+                <manifestation>
+                    <physDesc>
+                        <stamp>
+                            <p>N.S. Johnsson</p>
+                            <p>Hjortshög</p>
+                        </stamp>
+                        <stamp>
+                            <p>Johan Swenssons</p>
+                            <p>Bokhandel</p>
+                            <p>Helsingborg</p>
+                        </stamp>
+                    </physDesc>
+                </manifestation>
+            </manifestationList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Forsattsblad">
+                    <graphic xml:id="Forsattsblad_pub"
+                        target="assets/img/documents/Forsattsblad.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på nothäftets försättsblad</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.1h">
@@ -140,7 +184,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_1">
+                    <graphic xml:id="Sida_1_pub" target="assets/img/documents/Sida_1.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på nothäftets första sida</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.2v">
@@ -172,7 +223,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_2">
+                    <graphic xml:id="Sida_2_pub" target="assets/img/documents/Sida_2.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på nothäftets andra sida</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.3h">
@@ -200,7 +258,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_3">
+                    <graphic xml:id="Sida_3_pub" target="assets/img/documents/Sida_3.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på nothäftets tredje sida</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.4v">
@@ -223,7 +288,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_4">
+                    <graphic xml:id="Sida_4_pub" target="assets/img/documents/Sida_4.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på nothäftets fjärde sida</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid5h">
@@ -278,7 +350,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_5">
+                    <graphic xml:id="Sida_5_pub" target="assets/img/documents/Sida_5.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på nothäftets femte sida</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.6v">
@@ -302,7 +381,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_6">
+                    <graphic xml:id="Sida_6_pub" target="assets/img/documents/Sida_6.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på nothäftets sjätte sida</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.7h">
@@ -341,7 +427,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_7">
+                    <graphic xml:id="Sida_7_pub" target="assets/img/documents/Sida_7.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på nothäftets sjunde sida</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.8v">
@@ -364,7 +457,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_8">
+                    <graphic xml:id="Sida_8_pub" target="assets/img/documents/Sida_8.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på nothäftets åttonde sida</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.9h">
@@ -392,7 +492,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_9">
+                    <graphic xml:id="Sida_9_pub" target="assets/img/documents/Sida_9.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på nothäftets nionde sida</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.10v">
@@ -423,7 +530,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_10">
+                    <graphic xml:id="Sida_10_pub" target="assets/img/documents/Sida_10.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på nothäftets tionde sida</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.11h">
@@ -451,7 +565,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_11">
+                    <graphic xml:id="Sida_11_pub" target="assets/img/documents/Sida_11.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 11 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.12v">
@@ -490,7 +611,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_12">
+                    <graphic xml:id="Sida_12_pub" target="assets/img/documents/Sida_12.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 12 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.13h">
@@ -523,7 +651,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_13">
+                    <graphic xml:id="Sida_13_pub" target="assets/img/documents/Sida_13.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 13 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.14v">
@@ -554,7 +689,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_14">
+                    <graphic xml:id="Sida_14_pub" target="assets/img/documents/Sida_14.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 14 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.15h">
@@ -586,7 +728,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_15">
+                    <graphic xml:id="Sida_15_pub" target="assets/img/documents/Sida_15.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 15 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.16v">
@@ -609,7 +758,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_16">
+                    <graphic xml:id="Sida_16_pub" target="assets/img/documents/Sida_16.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 16 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.17h">
@@ -648,7 +804,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_17">
+                    <graphic xml:id="Sida_17_pub" target="assets/img/documents/Sida_17.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 17 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.18v">
@@ -688,7 +851,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_18">
+                    <graphic xml:id="Sida_18_pub" target="assets/img/documents/Sida_18.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 18 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.19h">
@@ -717,7 +887,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_19">
+                    <graphic xml:id="Sida_19_pub" target="assets/img/documents/Sida_19.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 19 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.20v">
@@ -748,7 +925,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_20">
+                    <graphic xml:id="Sida_20_pub" target="assets/img/documents/Sida_20.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 20 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.21h">
@@ -781,7 +965,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_21">
+                    <graphic xml:id="Sida_21_pub" target="assets/img/documents/Sida_21.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 21 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.22v">
@@ -812,7 +1003,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_22">
+                    <graphic xml:id="Sida_22_pub" target="assets/img/documents/Sida_22.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 22 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.23h">
@@ -845,7 +1043,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_23">
+                    <graphic xml:id="Sida_23_pub" target="assets/img/documents/Sida_23.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 23 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.24v">
@@ -876,7 +1081,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_24">
+                    <graphic xml:id="Sida_24_pub" target="assets/img/documents/Sida_24.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 24 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.25h">
@@ -904,7 +1116,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_25">
+                    <graphic xml:id="Sida_25_pub" target="assets/img/documents/Sida_25.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 25 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.26v">
@@ -947,7 +1166,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_26">
+                    <graphic xml:id="Sida_26_pub" target="assets/img/documents/Sida_26.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 26 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.27h">
@@ -975,7 +1201,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_27">
+                    <graphic xml:id="Sida_27_pub" target="assets/img/documents/Sida_27.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 27 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.28v">
@@ -999,7 +1232,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_28">
+                    <graphic xml:id="Sida_28_pub" target="assets/img/documents/Sida_28.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 28 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.29h">
@@ -1020,7 +1260,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_29">
+                    <graphic xml:id="Sida_29_pub" target="assets/img/documents/Sida_29.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 29 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.30v">
@@ -1059,7 +1306,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_30">
+                    <graphic xml:id="Sida_30_pub" target="assets/img/documents/Sida_30.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 30 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.31h">
@@ -1087,7 +1341,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_31">
+                    <graphic xml:id="Sida_31_pub" target="assets/img/documents/Sida_31.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 31 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.32v">
@@ -1110,7 +1371,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_32">
+                    <graphic xml:id="Sida_32_pub" target="assets/img/documents/Sida_32.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 32 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.33h">
@@ -1146,7 +1414,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_33">
+                    <graphic xml:id="Sida_33_pub" target="assets/img/documents/Sida_33.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 33 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.34v">
@@ -1173,7 +1448,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_34">
+                    <graphic xml:id="Sida_34_pub" target="assets/img/documents/Sida_34.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 34 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.35h">
@@ -1202,7 +1484,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_35">
+                    <graphic xml:id="Sida_35_pub" target="assets/img/documents/Sida_35.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 35 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.36v">
@@ -1226,7 +1515,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_36">
+                    <graphic xml:id="Sida_36_pub" target="assets/img/documents/Sida_36.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 36 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.37h">
@@ -1251,7 +1547,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_37">
+                    <graphic xml:id="Sida_37_pub" target="assets/img/documents/Sida_37.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 37 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.38v">
@@ -1278,7 +1581,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_38">
+                    <graphic xml:id="Sida_38_pub" target="assets/img/documents/Sida_38.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 38 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.39h">
@@ -1299,7 +1609,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_39">
+                    <graphic xml:id="Sida_39_pub" target="assets/img/documents/Sida_39.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 39 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.40v">
@@ -1323,7 +1640,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_40">
+                    <graphic xml:id="Sida_40_pub" target="assets/img/documents/Sida_40.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 40 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.41h">
@@ -1344,7 +1668,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_41">
+                    <graphic xml:id="Sida_41_pub" target="assets/img/documents/Sida_41.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 41 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.42v">
@@ -1376,7 +1707,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_42">
+                    <graphic xml:id="Sida_42_pub" target="assets/img/documents/Sida_42.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 42 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.43h">
@@ -1405,7 +1743,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_43">
+                    <graphic xml:id="Sida_43_pub" target="assets/img/documents/Sida_43.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 43 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="sid.44v">
@@ -1436,7 +1781,14 @@
             </workList>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Sida_44">
+                    <graphic xml:id="Sida_44_pub" target="assets/img/documents/Sida_44.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild på sida 44 i nothäftet</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="eftersättsblad">
@@ -1449,7 +1801,15 @@
             </fileDesc>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Eftersattsblad">
+                    <graphic xml:id="Eftersattsblad_pub"
+                        target="assets/img/documents/Eftersattsblad.jpg"> </graphic>
+                    <zone>
+                        <figDesc>En bild nothäftets eftersättsblad</figDesc>
+                    </zone>
+                </surface>
+            </facsimile>
         </music>
     </mei>
     <mei xml:id="baksida">
@@ -1462,7 +1822,12 @@
             </fileDesc>
         </meiHead>
         <music>
-            <facsimile></facsimile>
+            <facsimile>
+                <surface xml:id="Baksida">
+                    <graphic xml:id="Baksida_pub" target="assets/img/documents/Baksida.jpg"
+                    > </graphic>
+                </surface>
+            </facsimile>
         </music>
     </mei>
 </meiCorpus>
