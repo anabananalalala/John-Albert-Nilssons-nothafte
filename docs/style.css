@@ -111,12 +111,19 @@ p {color: white;
 .transkript-layout {
     justify-content: center;
     align-items: center;
-    margin: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
     display: flex;
     width: 100%; 
 }
 
-
+.audio-layout {
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    display: flex;
+    width: 100%; 
+}
 
 .column {
   flex: 1; /* Ensures columns take equal width */
@@ -128,7 +135,6 @@ p {color: white;
     display: block;
 }
 
-
 .index-img {
     width: 100%; /* Makes images fill their container */
     height: auto; /* Maintains aspect ratio */
@@ -136,7 +142,7 @@ p {color: white;
 }
 
 .transkript-img {
-    width: 80%; /* Makes images fill their container */
+    width: 100%; /* Makes images fill their container */
     height: auto; /* Maintains aspect ratio */
     display: block;
 }
