@@ -30,14 +30,15 @@ nav {
     padding: 1vw;
     text-align: center;
     letter-spacing: 2px;
+    
 }
 
 .index-text {
-text-align: justify;
-color: white;
-line-height: 1.8;
-padding-top: 5%;
-padding-bottom: 5%;
+    text-align: justify;
+    color: white;
+    line-height: 1.8;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .subtitle {
@@ -66,7 +67,6 @@ padding-bottom: 5%;
     background-color:black;
 }
 
-
 #collection {
     display: flex;
 }
@@ -74,14 +74,13 @@ padding-bottom: 5%;
 
 a {
     text-decoration: none; /* Optional: removes underline */
-    
 }
 
-p {color: white;
+p {
+    color: white;
 }
 
-
-.img-layout {
+.top-img-layout {
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
@@ -90,7 +89,7 @@ p {color: white;
     gap: 10px; /* Adds space between columns */
 }
 
-.top-img-layout {
+.img-layout {
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
@@ -131,6 +130,7 @@ p {color: white;
 
 .img-full {
     width: 100%; /* Makes images fill their container */
+    height: 284.18px;
     height: auto; /* Maintains aspect ratio */
     display: block;
 }
