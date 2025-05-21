@@ -18,9 +18,11 @@ h2 {
 }
 
 h3 {
+    font-family: 'roboto';
     font-weight: bold;
     padding: 1vw;
     text-align: center;
+    color: white;
 }
 
 nav {
@@ -34,6 +36,7 @@ nav {
 }
 
 .index-text {
+    font-family: 'roboto';
     text-align: justify;
     color: white;
     line-height: 1.8;
@@ -41,8 +44,21 @@ nav {
     padding-bottom: 5%;
 }
 
+.omoss-text {
+    font-family: 'roboto';
+    text-align: justify;
+    color: white;
+    line-height: 1.8;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
 .subtitle {
     margin-left: 5%;
+    font-size: 0.75em;
+    
 }
 
 #details {
@@ -72,8 +88,22 @@ nav {
 }
 
 
-a {
-    text-decoration: none; /* Optional: removes underline */
+a:link {
+  color: #888B90;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #008080;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 p {
