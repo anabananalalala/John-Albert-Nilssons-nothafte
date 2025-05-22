@@ -23,7 +23,7 @@ En txt-fil med information om Creative Commons-licensen
 
 En README-fil
 
-Två MEI filer, en som innehåller hela nothäftet, och en som innehåller not transkribering för halva låten Kirsten Gifteknivs Galopp.
+Två MEI filer, en som innehåller hela nothäftet, och en som innehåller not transkribering för halva låten Kirsten Gifteknifs Galopp.
 
 48 TIF bildfiler med inbäddad metadata
 
