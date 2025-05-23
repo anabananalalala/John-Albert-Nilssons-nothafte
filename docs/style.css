@@ -134,8 +134,8 @@ p {
 
 .top-img-layout {
     margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     display: flex;
     justify-content: space-between; /* Adjusts spacing between images */
     gap: 10px; /* Adds space between columns */
@@ -143,8 +143,8 @@ p {
 
 .img-layout {
     margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     display: flex;
     justify-content: space-between; /* Adjusts spacing between images */
     gap: 10px; /* Adds space between columns */
