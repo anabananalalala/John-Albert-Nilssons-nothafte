@@ -19,7 +19,7 @@ h2 {
 
 h3 {
     font-family: 'Verdana';
-    font-weight: bold;
+    
     padding: 1vw;
     text-align: center;
     color: white;
@@ -55,6 +55,7 @@ nav {
 }
 
 .subtitle {
+    font-family: 'Verdana';
     margin-left: 5%;
     font-size: 0.75em;
 }
