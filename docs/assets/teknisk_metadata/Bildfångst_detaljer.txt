@@ -1,0 +1,33 @@
+Detaljer kring bildfångst
+- Plats: Malmö Stadsbibliotek, Malala rummet
+- Tid: 2 april, 08:30 – 11:25 och 30 April, 8.30 – 9.20
+Utrustning:
+- 2x TERTIAL Ikea arbetslampa
+- FLAIR LED lampa, 220-240V 7W
+- Tripod
+- Nikon D3300
+- 18-55mm kameralens
+- Vitt bakplåtspapper
+- Macbook Air 13 inch 2024 (med Retina Display)
+- USB-sladd som är compatibel med Macbook Air och Nikon.
+- Svart underlag
+Teknisk bildinformation:
+- Bild storlek: L (6000 x 4000)
+- Bild kvalitet: Compressed RAW (12 bit)
+- Lens: VR 18-55mm
+- UV filter: Andersson Pro MC UV 55mm
+- Focus mode: AF-A
+- Scene mode: Auto (flash off)
+- Color Space: Adobe RGB
+Mjukvara:
+- NX Studio
+Problem (och lösningar)
+- Naturligt ljus från fönster som inte hade någon gardin. Vi flyttade ett bord till ett hörn för att inte störas av ljuset som ändras under dagen.
+- Ljuset från medhavda lampor var väldigt starkt och gult. Vi tejpade fast två ark vitt bakplåtspapper per lampa, vilket gjorde ljuset dämpat och vitt.
+- Vi fotade de första bilderna i .JPEG av misstag. Vi ändrade bildkvaliteten till till .NEF (Nikons RAW-kvalitet) och började om.
+- 2 april kunde vi inte släcka en spotlight i taket. Vi täckte lampan med bakplåtspapper för att dämpa ljuset och som konsekvens släcktes spotlighten av detta. Detta problem uppstod inte 30 april.
+- 2 april klockan 10:15 uppstod ett elfel på biblioteket, och en elektriker avbröt fotograferingen i ungefär 20–30 minuter tills problemet var åtgärdat. 
+- Under bildredigeringen efter första fotograferingen, märkte vi att flera bilder var sneda och inte kunde beskäras utan att bitar av nothäftet försvinner. Efter konversation med vår kontaktperson
+från Skånes spelmansförbund bestämde vi oss för att ta om de 10 bilderna. Vi gick tillbaka till samma plats, vid samma tid och använde samma utrustning för att bibehålla samma kvalitet.
+
+
