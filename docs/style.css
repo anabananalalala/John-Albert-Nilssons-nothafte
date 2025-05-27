@@ -129,6 +129,12 @@ nav {
     text-decoration: underline;
 }
 
+#text-description a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 p {
     color: white;
 }
